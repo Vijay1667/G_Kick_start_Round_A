@@ -17,7 +17,6 @@ public class codejam_1A_1 {
                 curr=curr.substring(0,i)+temp+curr.substring(i);
                
                 if(curr.compareTo(curr2)<=0){
-                    //System.out.println("NEW LETTER: "+curr+"  "+i);
                     str=curr;
                     curr2=curr;
                     i++;
